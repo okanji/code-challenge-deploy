@@ -10,8 +10,8 @@
     "test": "jest",
     "start": "node app.js",
     "build": "cd frontend && npm run build",
-    "install-frontend": "cd frontend && npm install --only=dev && npm install",
-    "hroku-postbuild": "npm run install-frontend && npm run build "
+    "install-frontend": "cd frontend && npm install",
+    "hroku-postbuild": "npm run install-frontend && npm run build"
   },
   "author": "",
   "license": "ISC",
