@@ -51,7 +51,7 @@ app.use((error, req, res, next) => {
 });
 
 app.use(
-  express.static(path.join(__dirname, "../frontend/build"))
+  express.static(path.join(__dirname, "frontend/build"))
 );
 
 mongoose
