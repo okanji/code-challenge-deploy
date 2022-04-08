@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "hroku-postbuild": "npm run install-client && npm run build "
   },
   "author": "",
   "license": "ISC",
